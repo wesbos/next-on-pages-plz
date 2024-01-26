@@ -12,6 +12,7 @@
     "pages:deploy": "npm run pages:build && wrangler pages deploy .vercel/output/static"
   },
   "dependencies": {
+    "@nivo/bump": "^0.84.0",
     "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18"
